@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    padding: 5rem;
+    transition: background 0.5s linear,color 0.5s linear;
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+.form-check, form-switch{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+ 
+}
+
+label{
+    
+    border-radius: 40%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+body .dark label{
+    background-color: white;
+}
